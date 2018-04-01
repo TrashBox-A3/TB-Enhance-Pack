@@ -1,8 +1,5 @@
 if (!isDedicated) then {
 
-
-
-
 _staticweapon = ["StaticGrenadeLauncher","StaticMGWeapon","StaticATWeapon"];
 _canonmortor = ["Staticmortor","StaticCannon"];
 _b = behaviour player;
