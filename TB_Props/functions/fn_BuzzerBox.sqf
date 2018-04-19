@@ -1,6 +1,6 @@
 _types = [
-"ArG_Speaker",
-"ArG_BuzzerBox"
+"TB_Speaker",
+"TB_BuzzerBox"
 ];
 
 
