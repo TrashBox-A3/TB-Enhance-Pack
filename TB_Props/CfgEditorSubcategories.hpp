@@ -10,5 +10,10 @@ class CfgEditorSubcategories
         displayName = "Flag"; // Name visible in the list
     };
 
-    
+    class TB_Items // Category class, you point to it in editorSubcategory property
+    {
+        displayName = "Item"; // Name visible in the list
+    };
+
+
 };

@@ -1,7 +1,7 @@
 class CfgVehicles
 {
 	class  Land_Billboard_F;
-	
+
 		class TB_Billboard:  Land_Billboard_F
 	{
 		scope=2;
@@ -14,7 +14,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\Billboard_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TB.paa"};
-		
+
 	};
 
 	class TBR_Billboard:  Land_Billboard_F
@@ -29,7 +29,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\Billboard_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBR.paa"};
-		
+
 	};
 
 	class TBAF_Billboard:  Land_Billboard_F
@@ -44,13 +44,13 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\Billboard_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBAF.paa"};
-		
+
 	};
 
-	
+
 
 	class  Land_Noticeboard_F;
-	
+
 		class TB_Noticeboard:  Land_Noticeboard_F
 	{
 		scope=2;
@@ -64,7 +64,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TB.paa"};
-		
+
 	};
 
 	class TBR_Noticeboard:  Land_Noticeboard_F
@@ -80,7 +80,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBR.paa"};
-		
+
 	};
 
 	class TBAF_Noticeboard:  Land_Noticeboard_F
@@ -96,11 +96,11 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\Noticeboard_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBAF.paa"};
-		
+
 	};
 
 	class  Land_InfoStand_V1_F;
-	
+
 		class TB_InfoStand_V1:  Land_InfoStand_V1_F
 	{
 		scope=2;
@@ -114,7 +114,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\InfoStand_V1_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TB.paa"};
-		
+
 	};
 
 	class TBR_InfoStand_V1:  Land_InfoStand_V1_F
@@ -130,7 +130,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\InfoStand_V1_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBR.paa"};
-		
+
 	};
 
 	class TBAF_InfoStand_V1:  Land_InfoStand_V1_F
@@ -146,11 +146,11 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\InfoStand_V1_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBAF.paa"};
-		
+
 	};
 
 	class  Land_InfoStand_V2_F;
-	
+
 		class TB_InfoStand_V2:  Land_InfoStand_V2_F
 	{
 		scope=2;
@@ -164,7 +164,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\InfoStand_V2_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TB.paa"};
-		
+
 	};
 
 	class TBR_InfoStand_V2:  Land_InfoStand_V2_F
@@ -180,7 +180,7 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\InfoStand_V2_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBR.paa"};
-		
+
 	};
 
 	class TBAF_InfoStand_V2:  Land_InfoStand_V2_F
@@ -196,19 +196,19 @@ class CfgVehicles
 		model = "\A3\Structures_F\Civ\InfoBoards\InfoStand_V2_F.p3d";
 		hiddenSelections[]={"Camo"};
 		hiddenSelectionsTextures[] = {"\TB_Props\TB_Props_EditorPreviews\TBAF.paa"};
-		
+
 	};
 
 
 	class  FlagCarrier;
-	
+
 		class TB_Flag:  FlagCarrier
 	{
-        
+
             eden=0;
             animate[]=
             {
-                
+
                 {
                     "flag",
                     0
@@ -218,8 +218,8 @@ class CfgVehicles
             verticalOffset=3.977;
             verticalOffsetWorld=0;
             init="''";
-        
-		
+
+
 		scope=2;
 		scopeCurator=2;
 		author="Rodeostar42";
@@ -234,7 +234,7 @@ class CfgVehicles
         {
             init="(_this select 0) setFlagTexture '\TB_Props\TB_Props_EditorPreviews\TB.paa'";
         };
-		
+
 	};
 
 	class TBR_Flag:  FlagCarrier
@@ -242,7 +242,7 @@ class CfgVehicles
 		eden=0;
             animate[]=
             {
-                
+
                 {
                     "flag",
                     0
@@ -267,7 +267,7 @@ class CfgVehicles
         {
             init="(_this select 0) setFlagTexture '\TB_Props\TB_Props_EditorPreviews\TBR.paa'";
         };
-		
+
 	};
 
 	class TBAF_Flag:  FlagCarrier
@@ -275,7 +275,7 @@ class CfgVehicles
 		eden=0;
             animate[]=
             {
-                
+
                 {
                     "flag",
                     0
@@ -300,7 +300,62 @@ class CfgVehicles
         {
             init="(_this select 0) setFlagTexture '\TB_Props\TB_Props_EditorPreviews\TBAF.paa'";
         };
-		
+
+	};
+
+	//Speaker Box//
+	class  Land_SatellitePhone_F;
+
+			class TB_BuzzerBox:  Land_SatellitePhone_F
+	{
+			scope=2;
+			author="Rodeostar42";
+			displayName="TB Buzzer box";
+			faction = "Empty";
+			editorCategory = "TB_Objects";
+			editorSubcategory = "TB_Items";
+			editorPreview = "\TB_Props\TB_Props_EditorPreviews\ArG_BuzzerBox.jpg";
+			model = "\A3\Structures_F\Items\Electronics\SatellitePhone_F.p3d";
+			hiddenSelections[]={};
+			hiddenSelectionsTextures[] = {};
+
+				class UserActions
+{
+class Action
+{
+	displayName = "<img image='\TB_Props\TB_Enhance_Pack.jpg' size='1' shadow='false' /> <t color=""#FF4500"">Buzzer Switch";
+	displayNameDefault = "<img image='\TB_Props\TB_Enhance_Pack.jpg' size='3' shadow='false' /><t color=""#FF4500"">Buzzer Switch";
+	priority = 3;
+	radius = 20;
+	position = "camera";
+	showWindow = 0;
+	hideOnUse = 0;
+	onlyForPlayer = 1;
+	shortcut = "reloadMagazine";
+	condition = "true";
+	statement = "this say3D 'Switch',0 = [0] execVM 'TB_Props\functions\fn_BuzzerBox.sqf'";
+};
+};
+
+
+	};
+
+	//Speaker//
+	class  Land_Loudspeakers_F;
+
+			class TB_Speaker:  Land_Loudspeakers_F
+	{
+			scope=2;
+			author="Rodeostar42";
+			displayName="TB Speaker";
+			faction = "Empty";
+			editorCategory = "TB_Objects";
+			editorSubcategory = "TB_Items";
+			editorPreview = "\TB_Props\TB_Props_EditorPreviews\ArG_Speakera.jpg";
+			model = "\A3\Structures_F\Civ\Accessories\Loudspeakers_F.p3d";
+			hiddenSelections[]={};
+			hiddenSelectionsTextures[] = {};
+
 	};
 
 
