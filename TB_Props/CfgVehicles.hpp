@@ -323,8 +323,8 @@ class CfgVehicles
 {
 class Action
 {
-	displayName = "<img image='\TB_Prop\TB_Enhance_Pack.jpg' size='1' shadow='false' /> <t color=""#FF4500"">Buzzer Switch";
-	displayNameDefault = "<img image='\TB_Prop\TB_Enhance_Pack.jpg' size='3' shadow='false' /><t color=""#FF4500"">Buzzer Switch";
+	displayName = "<img image='\TB_Props\TB_Enhance_Pack.jpg' size='1' shadow='false' /> <t color=""#FF4500"">Buzzer Switch";
+	displayNameDefault = "<img image='\TB_Props\TB_Enhance_Pack.jpg' size='3' shadow='false' /><t color=""#FF4500"">Buzzer Switch";
 	priority = 3;
 	radius = 20;
 	position = "camera";

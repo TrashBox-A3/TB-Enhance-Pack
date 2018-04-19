@@ -2,7 +2,7 @@
 class CfgFunctions
 {
 
-class TB
+class TB_Script
 {
 
 	class State
