@@ -12,6 +12,12 @@ class TB_Script
 
 };
 
+class Azzane
+{
+file = "\TB_Props\functions";
+class Prayer { postInit = 1; };
+
+};
 
 };
 

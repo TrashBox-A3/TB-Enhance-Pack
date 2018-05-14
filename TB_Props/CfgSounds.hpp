@@ -12,4 +12,10 @@ class CfgSounds {
     titles[] = {};
   };
 
+  class prayer {
+		name = "prayer";
+		sound[] = {"TB_Props\Sound\Beautiful Islamic Call To Prayer.ogg", db+5, 1};
+		titles[] = {};
+	};
+
 };
