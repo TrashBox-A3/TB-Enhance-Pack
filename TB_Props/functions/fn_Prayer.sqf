@@ -1,5 +1,5 @@
 private ["_mosque", "_times_to_play", "_played_times", "_i","_Minarets"];
-_mosque = ["Land_R_Minaret"];
+_mosque = ["TB_Minaret"];
 _times_to_play = [5, 12, 15, 18, 19];
 _played_times = [0, 0, 0, 0, 0];
 _i = 0;

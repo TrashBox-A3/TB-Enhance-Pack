@@ -358,6 +358,24 @@ class Action
 
 	};
 
+	//Speaker//
+	class Land_R_Minaret;
+
+			class TB_Minaret:  Land_R_Minaret
+	{
+			scope=2;
+			author="Rodeostar42";
+			displayName = "TB Minaret";
+			faction = "Empty";
+			editorCategory = "TB_Objects";
+			editorSubcategory = "TB_Items";
+			editorPreview = "cup\terrains\cup_terrains_editor_c\data\land_r_minaret.jpg";
+			model = "\Ca\Desert2\Build\R_Minaret.p3d";
+			hiddenSelections[]={};
+			hiddenSelectionsTextures[] = {};
+
+	};
+
 
 
 
