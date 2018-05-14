@@ -5,7 +5,7 @@ _played_times = [0, 0, 0, 0, 0];
 _i = 0;
 _Minarets = getPos player nearObjects [_mosque select _i , 600];
 
-
+if(!isServer)then{
 while {true} do
 {
 
@@ -29,6 +29,6 @@ while {true} do
    };
 
    Sleep 10;
-
+};
 
 };
