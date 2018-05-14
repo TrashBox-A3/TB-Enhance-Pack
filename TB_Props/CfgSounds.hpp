@@ -24,35 +24,7 @@ class CfgSounds {
 		titles[] = {};
 	};
 
-  class USA {
-		name = "USA";
-		sound[] = {"TB_Props\Sound\USA_01.wss", db+2, 1};
-		titles[] = {};
-	};
-
-  class RU {
-		name = "RU";
-		sound[] = {"TB_Props\Sound\RU_01.wss", db+2, 1};
-		titles[] = {};
-	};
-
-  class VDV {
-		name = "VDV";
-		sound[] = {"TB_Props\Sound\VDV_01.wss", db+2, 1};
-		titles[] = {};
-	};
-
-  class USMC {
-		name = "USMC";
-		sound[] = {"TB_Props\Sound\USMC_01.wss", db+2, 1};
-		titles[] = {};
-	};
-
-  class Arab {
-		name = "Arab";
-		sound[] = {"TB_Props\Sound\Arab_01.wss", db+2, 1};
-		titles[] = {};
-	};
+  
 
 
 
