@@ -3,7 +3,7 @@ _mosque = ["Land_R_Minaret"];
 _times_to_play = [5, 12, 15, 18, 19];
 _played_times = [0, 0, 0, 0, 0];
 _i = 0;
-_Minarets = getPos player nearObjects [_mosque select _i , 300];
+_Minarets = getPos player nearObjects [_mosque select _i , 600];
 
 
 while {true} do
