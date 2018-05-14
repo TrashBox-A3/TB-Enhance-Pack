@@ -15,5 +15,10 @@ class CfgEditorSubcategories
         displayName = "Item"; // Name visible in the list
     };
 
+    class TB_Islamic // Category class, you point to it in editorSubcategory property
+    {
+        displayName = "Islamic"; // Name visible in the list
+    };
+
 
 };

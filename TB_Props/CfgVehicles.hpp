@@ -365,10 +365,10 @@ class Action
 	{
 			scope=2;
 			author="Rodeostar42";
-			displayName = "TB Minaret";
+			displayName = "TB Minaret(call azan)";
 			faction = "Empty";
 			editorCategory = "TB_Objects";
-			editorSubcategory = "TB_Items";
+			editorSubcategory = "TB_Islamic";
 			editorPreview = "cup\terrains\cup_terrains_editor_c\data\land_r_minaret.jpg";
 			model = "\Ca\Desert2\Build\R_Minaret.p3d";
 			hiddenSelections[]={};
