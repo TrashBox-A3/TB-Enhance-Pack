@@ -20,7 +20,7 @@ class CfgSounds {
 
   class prayer_2 {
 		name = "prayer_02";
-		sound[] = {"TB_Props\Sound\azzan_02.wss", db+4, 1};
+		sound[] = {"TB_Props\Sound\azzan_02.wss", db+5, 1};
 		titles[] = {};
 	};
 
