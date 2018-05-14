@@ -333,7 +333,7 @@ class Action
 	onlyForPlayer = 1;
 	shortcut = "reloadMagazine";
 	condition = "true";
-	statement = "this say3D 'Switch',0 = [0] execVM 'TB_Props\functions\fn_BuzzerBox.sqf'";
+	statement = "this say3D 'Switch',[[[],'TB_Props\functions\fn_BuzzerBox.sqf'], 'BIS_fnc_execVM', true,true] call BIS_fnc_MP;";
 };
 };
 
