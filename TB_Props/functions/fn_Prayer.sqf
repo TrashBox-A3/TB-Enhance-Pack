@@ -17,7 +17,7 @@ while {true} do
          if ((_played_times select _i) == 0) then
          {
             _played_times set [_i, 1];
-            {_x say3D "prayer"} forEach _Minarets ;
+            {_x say3D "prayer_02"} forEach _Minarets ;
          };
       };
       _i = _i + 1;
