@@ -13,7 +13,8 @@ class CfgPatches
 	      "TBR_Flag",
 	      "TBAF_Flag",
         "TB_BuzzerBox",
-        "TB_Speaker"
+        "TB_Speaker",
+        "TB_Minaret"
 
 		};
 		weapons[]={};

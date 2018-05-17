@@ -333,7 +333,7 @@ class Action
 	onlyForPlayer = 1;
 	shortcut = "reloadMagazine";
 	condition = "true";
-	statement = "this say3D 'Switch',0 = [0] execVM 'TB_Props\functions\fn_BuzzerBox.sqf'";
+	statement = "this say3D 'Switch',[[[],'TB_Props\functions\fn_BuzzerBox.sqf'], 'BIS_fnc_execVM', true,true] call BIS_fnc_MP;";
 };
 };
 
@@ -353,6 +353,24 @@ class Action
 			editorSubcategory = "TB_Items";
 			editorPreview = "\TB_Props\TB_Props_EditorPreviews\ArG_Speakera.jpg";
 			model = "\A3\Structures_F\Civ\Accessories\Loudspeakers_F.p3d";
+			hiddenSelections[]={};
+			hiddenSelectionsTextures[] = {};
+
+	};
+
+	//Speaker//
+	class Land_R_Minaret;
+
+			class TB_Minaret:  Land_R_Minaret
+	{
+			scope=2;
+			author="Rodeostar42";
+			displayName = "TB Minaret(call azan)";
+			faction = "Empty";
+			editorCategory = "TB_Objects";
+			editorSubcategory = "TB_Islamic";
+			editorPreview = "cup\terrains\cup_terrains_editor_c\data\land_r_minaret.jpg";
+			model = "\Ca\Desert2\Build\R_Minaret.p3d";
 			hiddenSelections[]={};
 			hiddenSelectionsTextures[] = {};
 
