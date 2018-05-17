@@ -1,3 +1,6 @@
+
+
+
 private ["_mosque", "_times_to_play", "_played_times", "_i","_Minarets"];
 _mosque = ["TB_Minaret"];
 _times_to_play = [5, 12, 15, 18, 21];
@@ -5,7 +8,11 @@ _played_times = [0, 0, 0, 0, 0];
 _i = 0;
 _Minarets = getPos player nearObjects [_mosque select _i , 600];
 
+<<<<<<< HEAD
 if (isServer)  exitwith {
+=======
+
+>>>>>>> 0e9bd25f812342d102ae1854edf10943eb215779
 
 while {true} do
 {
@@ -32,4 +39,3 @@ while {true} do
    Sleep 10;
 };
 
-};
