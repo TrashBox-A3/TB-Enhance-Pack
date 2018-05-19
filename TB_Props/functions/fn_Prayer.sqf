@@ -9,6 +9,8 @@ _i = 0;
 _Minarets = getPos player nearObjects [_mosque select _i , 600];
 
 
+if (isServer)  exitwith {
+
 
 while {true} do
 {
@@ -34,4 +36,3 @@ while {true} do
 
    Sleep 10;
 };
-

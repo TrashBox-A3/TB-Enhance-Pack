@@ -41,6 +41,7 @@
   "B_T_Pilot_F",
   "rhsusf_airforce_jetpilot",
   "rhsusf_airforce_pilot",
+  "gac_JASDF_Pilot",
   //OpFor//
   "CUP_O_RU_Pilot_EMR",
   "CUP_O_RU_Pilot",
