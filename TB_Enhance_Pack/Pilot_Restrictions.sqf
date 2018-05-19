@@ -335,6 +335,7 @@
 "H_PilotHelmetFighter_B",
 "JS_JC_FA18_PilotHelmet",
 "FIR_ScorpionHMCS",
+"gac_JGSDF_pilot_helmet",
 
 ///RU///
 "rhs_zsh7a_alt",
