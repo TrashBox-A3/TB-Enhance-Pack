@@ -293,7 +293,7 @@
 
     _armor = ["Tank"];
 
-    
+
 
     /////////////////
     _gear = [
@@ -417,7 +417,7 @@
     _iamjetpilot = ((({typeOf vehicle player == _x} count _jetpilots) > 0 )or(({str player == _x} count _jetpilots) > 0 ));
     _iamcrewman = ((({typeOf vehicle player == _x} count _crewmen) > 0 )or(({str player == _x} count _crewmen) > 0 ));
 
-    
+
 
     while{true} do {
 
@@ -453,7 +453,7 @@
 
                if((({_unit isKindOf _x} count _plane)  > 0 && _iamjetpilot) && ((headgear player in _gear))) then {
                showHUD [true,true,true,true,true,true,true,true,true];
-              
+
               player setVariable ["ACE_GForceCoef", 0.55];
 
               _sit = [driver _unit] + [_unit turretUnit [1]] + [gunner _unit] + [_unit turretUnit [0]] + [_unit turretUnit [2]] + [_unit turretUnit [3]];
