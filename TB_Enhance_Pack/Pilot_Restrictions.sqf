@@ -12,6 +12,23 @@
   "JET6",
   "JET7",
   "JET8",
+  "TB_1",
+  "TB_2",
+  "TB_3",
+  "TB_4",
+  "TB_5",
+  "TB_6",
+  "TB_7",
+  "TB_8",
+  "TB_9",
+  "TB_10",
+  "TB_11",
+  "TB_12",
+  "TB_13",
+  "TB_14",
+  "TB_15",
+  "TB_16"
+
 
  ///Class names///
  //Bluefor//
@@ -88,7 +105,22 @@
   "HELI6",
   "HELI7",
   "HELI8",
-
+  "TB_1",
+  "TB_2",
+  "TB_3",
+  "TB_4",
+  "TB_5",
+  "TB_6",
+  "TB_7",
+  "TB_8",
+  "TB_9",
+  "TB_10",
+  "TB_11",
+  "TB_12",
+  "TB_13",
+  "TB_14",
+  "TB_15",
+  "TB_16"
 ///Class names///
 //Bluefor//
   "CUP_B_BAF_Pilot_MTP",
@@ -146,7 +178,22 @@
   "CR6",
   "CR7",
   "CR8",
-
+  "TB_1",
+  "TB_2",
+  "TB_3",
+  "TB_4",
+  "TB_5",
+  "TB_6",
+  "TB_7",
+  "TB_8",
+  "TB_9",
+  "TB_10",
+  "TB_11",
+  "TB_12",
+  "TB_13",
+  "TB_14",
+  "TB_15",
+  "TB_16"
 ///Class names///
 //Bluefor//
 "CUP_B_CZ_Crew_WDL",
