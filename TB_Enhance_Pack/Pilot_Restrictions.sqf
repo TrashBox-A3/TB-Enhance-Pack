@@ -27,7 +27,7 @@
   "TB_13",
   "TB_14",
   "TB_15",
-  "TB_16"
+  "TB_16",
 
 
  ///Class names///
@@ -120,7 +120,7 @@
   "TB_13",
   "TB_14",
   "TB_15",
-  "TB_16"
+  "TB_16",
 ///Class names///
 //Bluefor//
   "CUP_B_BAF_Pilot_MTP",
@@ -193,7 +193,7 @@
   "TB_13",
   "TB_14",
   "TB_15",
-  "TB_16"
+  "TB_16",
 ///Class names///
 //Bluefor//
 "CUP_B_CZ_Crew_WDL",
