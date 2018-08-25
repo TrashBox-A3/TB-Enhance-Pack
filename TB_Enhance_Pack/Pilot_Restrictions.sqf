@@ -92,7 +92,19 @@
   "C_man_pilot_F",
   "CUP_C_C_Pilot_01",
   "CUP_C_R_Pilot_01",
-  "C_IDAP_Pilot_01_F"
+  "C_IDAP_Pilot_01_F",
+  ///WW2///
+ "LIB_US_Pilot",
+ "LIB_US_Pilot_2",
+ "LIB_US_Bomber_Crew",
+ "LIB_US_Bomber_Pilot",
+ "fow_s_us_pilot_green",
+ "fow_s_us_pilot",
+ "LIB_SOV_pilot",
+ "fow_s_ija_pilot",
+ "LIB_GER_pilot",
+ ///Vietnam///
+ "uns_pil1"
   ];
 
       _pilots = [
@@ -121,6 +133,33 @@
   "TB_14",
   "TB_15",
   "TB_16",
+  "uns_pilot5",
+  "ABPL1",
+  "ABPL2",
+  "ABSL1",
+  "ABSL2",
+  "ABMD1",
+  "ABMD2",
+  "ABRM1",
+  "ABRM2",
+  "ABRM3",
+  "ABRM4",
+  "ABRM5",
+  "ABRM6",
+  "ABRM7",
+  "ABRM8",
+  "ABRM9",
+  "ABRM10",
+  "ABRM11",
+  "ABRM12",
+  "ABRMC1",
+  "ABRMC2",
+  "ABRMC3",
+  "ABRMC4",
+  "ABMG1",
+  "ABMG2",
+  "ABRTO1",
+  "ABRTO2"
 ///Class names///
 //Bluefor//
   "CUP_B_BAF_Pilot_MTP",
@@ -294,7 +333,36 @@
 "rhssaf_un_m10_digital_crew",
 "CUP_I_UN_CDF_Crew_DST",
 "CUP_I_UN_CDF_Crew_FST",
-"CUP_I_UN_CDF_Crew_MNT"
+"CUP_I_UN_CDF_Crew_MNT",
+///WW2//
+"LIB_US_tank_sergeant",
+  "LIB_US_tank_second_lieutenant",
+  "LIB_US_tank_crew",
+  "fow_s_ger_heer_tankcrew_01_2nd_leutnant",
+  "fow_s_ger_heer_tankcrew_01_gefreiter",
+  "fow_s_ger_heer_tankcrew_01_obergefreiter",
+  "fow_s_ger_heer_tankcrew_01_shutz",
+  "fow_s_ger_heer_tankcrew_01_unteroffizier",
+  "fow_s_ger_heer_tankcrew_02_2nd_leutnant",
+  "fow_s_ger_heer_tankcrew_02_gefreiter",
+  "fow_s_ger_heer_tankcrew_02_obergefreiter",
+  "fow_s_ger_heer_tankcrew_02_shutz",
+  "fow_s_ger_heer_tankcrew_02_unteroffizier",
+  "fow_s_ija_crewman",
+  "LIB_GER_tank_crew",
+  "LIB_GER_tank_unterofficer",
+  "LIB_GER_tank_lieutenant",
+  "SG_sturmpanzer_crew",
+  "SG_sturmpanzer_unterofficer",
+  "SG_sturmpanzer_officer",
+  "LIB_SOV_tank_captain",
+  "LIB_SOV_tank_lieutenant",
+  "LIB_SOV_tank_overall_captain",
+  "LIB_SOV_tank_overall_lieutenant",
+  "LIB_SOV_tank_crew",
+  "LIB_SOV_tank_sergeant",
+  "LIB_SOV_tank_overall_crew",
+  "LIB_SOV_tank_overall_sergeant"
   ];
 
 
@@ -337,11 +405,11 @@
     ///Vehicles///
     _plane = ["Plane"];
 
-    _chopper = ["Helicopter_Base_F"];
+    _chopper = ["Helicopter_Base_F","Helicopter","uns_UH1D_base","B_LIB_US_Type5"];
 
     _armor = ["Tank"];
 
-
+    _Parachute = ["B_Parachute","B_LIB_US_Type5"];
 
     /////////////////
     _gear = [
@@ -457,7 +525,7 @@
 
 
 
-    _Parachute = ["B_Parachute"];
+    
 
 
     waitUntil {player == player};
